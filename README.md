@@ -1,12 +1,12 @@
 # BulbulWeb
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/bulbulweb/repo-name)](https://github.com/bulbulweb/repo-name/issues)
-[![GitHub stars](https://img.shields.io/github/stars/bulbulweb/repo-name)](https://github.com/bulbulweb/repo-name/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/git-bulbulweb/codebase)](https://github.com/git-bulbulweb/codebase/issues)
+[![GitHub stars](https://img.shields.io/github/stars/git-bulbulweb/codebase)](https://github.com/git-bulbulweb/codebase/stargazers)
 
 ## Description
 
-BulbulWeb is a trailblazing online platform with a global reach, dedicated to providing a diverse and enriching experience to our audience. We take pride in offering valuable insights and entertainment across various domains, including Food, Health, Entertainment, Social Media, Guides, and Reviews. Our vision is to connect individuals worldwide, fostering a vibrant community where knowledge thrives and curiosity knows no bounds. Join us on this exciting journey as we explore new horizons and make a meaningful impact in the digital landscape.
+Welcome to Git-BulbulWeb Codebase! We are an engaging online platform that presents captivating content in simple, understandable language. Our website covers a diverse range of expertise, including Food, Health, Entertainment, Social Media, Guides, Reviews, and much more. Our mission is to make knowledge accessible to everyone, whether you're an enthusiast or a curious learner.
 
 ## Table of Contents
 
@@ -18,15 +18,15 @@ BulbulWeb is a trailblazing online platform with a global reach, dedicated to pr
 
 ## Installation
 
-No installation is required to enjoy the wealth of information available on BulbulWeb. Just visit our website at www.bulbulweb.com and start exploring!
+No installation required to enjoy the wealth of information available on Git-BulbulWeb Codebase. Just visit our website at www.bulbulweb.com and start exploring!
 
 ## Usage
 
-BulbulWeb is designed to be user-friendly. Simply browse our website to access a wide range of articles on various topics. Dive into the world of Food and discover delightful cuisines from different cultures. Learn valuable Health tips and wellness insights to lead a balanced life. Immerse yourself in Entertainment with the latest news and intriguing stories. Stay up-to-date with Social Media trends and connect with the world. Find comprehensive Guides to make informed decisions and rely on honest Reviews.
+Git-BulbulWeb Codebase is designed to be user-friendly. Simply browse our website to access a wide range of articles on various topics. Dive into the world of Food and discover delightful cuisines from different cultures. Learn valuable Health tips and wellness insights to lead a balanced life. Immerse yourself in Entertainment with the latest news and intriguing stories. Stay up-to-date with Social Media trends and connect with the world. Find comprehensive Guides to make informed decisions and rely on honest Reviews.
 
 ## Contributing
 
-We value contributions from our community! If you wish to contribute to BulbulWeb, follow these steps:
+We value contributions from our community! If you wish to contribute to Git-BulbulWeb Codebase, follow these steps:
 
 1. Fork this repository.
 2. Create a new branch: `git checkout -b feature/your-feature-name`
@@ -44,4 +44,4 @@ For any questions or suggestions, feel free to contact us:
 
 - Email: contact@bulbulweb.com
 - Twitter: [@BulbulWeb](https://twitter.com/BulbulWeb)
-- GitHub: [bulbulweb](https://github.com/bulbulweb)
+- GitHub: [git-bulbulweb](https://github.com/git-bulbulweb)
