@@ -1,4 +1,4 @@
-# Git-BulbulWeb Codebase
+# BulbulWeb
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/git-bulbulweb/codebase)](https://github.com/git-bulbulweb/codebase/issues)
