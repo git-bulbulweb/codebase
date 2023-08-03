@@ -1,8 +1,8 @@
 # BulbulWeb
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/bulbulweb/repo-name)](https://github.com/bulbulweb/repo-name/issues)
-[![GitHub stars](https://img.shields.io/github/stars/bulbulweb/repo-name)](https://github.com/bulbulweb/repo-name/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/bulbulweb/codebase)](https://github.com/bulbulweb/codebase/issues)
+[![GitHub stars](https://img.shields.io/github/stars/bulbulweb/codebase)](https://github.com/bulbulweb/codebase/stargazers)
 
 ## Description
 
