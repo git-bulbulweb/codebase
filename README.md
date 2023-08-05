@@ -6,7 +6,7 @@
 
 ## Description
 
-Welcome to Git-BulbulWeb Codebase! We are an engaging online platform that presents captivating content in simple, understandable language. Our website covers a diverse range of expertise, including Food, Health, Entertainment, Social Media, Guides, Reviews, and much more. Our mission is to make knowledge accessible to everyone, whether you're an enthusiast or a curious learner.
+Welcome to BulbulWeb Codebase! We are an engaging online platform that presents captivating content in simple, understandable language. Our website covers a diverse range of expertise, including Food, Health, Entertainment, Social Media, Guides, Reviews, and much more. Our mission is to make knowledge accessible to everyone, whether you're an enthusiast or a curious learner.
 
 ## Table of Contents
 
@@ -18,15 +18,15 @@ Welcome to Git-BulbulWeb Codebase! We are an engaging online platform that prese
 
 ## Installation
 
-No installation required to enjoy the wealth of information available on Git-BulbulWeb Codebase. Just visit our website at www.bulbulweb.com and start exploring!
+No installation is required to enjoy the wealth of information available on BulbulWeb Codebase. Just visit our website at www.bulbulweb.com and start exploring!
 
 ## Usage
 
-Git-BulbulWeb Codebase is designed to be user-friendly. Simply browse our website to access a wide range of articles on various topics. Dive into the world of Food and discover delightful cuisines from different cultures. Learn valuable Health tips and wellness insights to lead a balanced life. Immerse yourself in Entertainment with the latest news and intriguing stories. Stay up-to-date with Social Media trends and connect with the world. Find comprehensive Guides to make informed decisions and rely on honest Reviews.
+BulbulWeb Codebase is designed to be user-friendly. Simply browse our website to access a wide range of articles on various topics. Dive into the world of Food and discover delightful cuisines from different cultures. Learn valuable Health tips and wellness insights to lead a balanced life. Immerse yourself in Entertainment with the latest news and intriguing stories. Stay up-to-date with Social Media trends and connect with the world. Find comprehensive Guides to make informed decisions and rely on honest Reviews.
 
 ## Contributing
 
-We value contributions from our community! If you wish to contribute to Git-BulbulWeb Codebase, follow these steps:
+We value contributions from our community! If you wish to contribute to BulbulWeb Codebase, follow these steps:
 
 1. Fork this repository.
 2. Create a new branch: `git checkout -b feature/your-feature-name`
@@ -36,7 +36,7 @@ We value contributions from our community! If you wish to contribute to Git-Bulb
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GPL License 3.0 - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
