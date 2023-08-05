@@ -36,7 +36,7 @@ We value contributions from our community! If you wish to contribute to BulbulWe
 
 ## License
 
-This project is licensed under the GPL License 3.0 - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
