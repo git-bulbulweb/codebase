@@ -1,0 +1,80 @@
+.contact_us{
+    position: relative;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  background-color: var(--color-grey);
+    margin:1rem auto;
+    padding:2rem 1rem;
+ 
+}
+.contact_us .contact_form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.none{
+    display: none;
+}
+.close_btn{
+    display: flex;
+    align-self: flex-end;
+    cursor: pointer;
+
+}
+.contact_form input,.contact_form textarea{
+    outline-color: var(--color-green);
+    margin-bottom: 2rem;
+    margin-top: .4rem;
+}
+.contact_form textarea{
+    height: 150px;
+}
+.contact_form input{
+    height: 40px;
+}
+.contact_form .btn-send{
+    all: unset;
+    width: fit-content;
+    padding: .8rem 2rem;
+    background-color:var(--color-green);
+    color: white;
+    border-radius: 0.8rem;
+    cursor: pointer;
+}
+@media (max-width:1024px) {
+    .contact_us .contact_form{
+        width: 80%;
+    }
+}
+@media (max-width:540px) {
+    .contact_us .contact_form{
+        width: 95%;
+    }
+    .contact_us{
+    width: 100%;
+    }
+        .contact_form textarea{
+    height: 120px;
+}
+.contact_form input{
+    height: 35px;
+}
+}
+@media (max-width:300px) {
+    .contact_us .contact_form{
+        width: 100%;
+    }
+    .contact_us{
+    width: 100%;
+    }
+    .contact_form textarea{
+    height: 80px;
+}
+.contact_form input{
+    height: 30px;
+}
+}

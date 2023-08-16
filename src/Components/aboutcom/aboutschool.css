@@ -1,0 +1,135 @@
+.About_us_container{
+    width: 80%;
+    margin:5rem auto;
+    /* background-color: red; */
+    padding:2rem;
+    
+}
+.header-content
+{
+    /* padding: 2rem 6rem; */
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    
+}
+
+.header-content h2{
+     font-size: 50px;
+     font-weight: 400;
+     margin-bottom: 1rem;
+}
+.buttons{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+.buttons a{
+    padding: .7rem 2rem;
+    background-color: var(--color-green);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+
+}
+.largest_community{
+    width: 100%;
+    padding: 5rem 0;
+    background-color: var(--color-grey);
+}
+.largest_community p{
+    font-size:40px;
+    font-weight: 400;
+    text-align: center;
+}
+.what_is_school .what_ans p{
+    font-size: 22px;
+    margin-bottom:1rem ;
+}
+.what_is_school .what_languages{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.what_is_school .what_languages a{
+border-bottom: 1px solid var(--color-grey);
+padding: 0.5rem 0;
+color: black;
+margin-bottom:1.4rem ;
+}
+.what_is_school .what_languages a:hover{
+color: var(--color-green);
+text-decoration: underline;
+}
+.what_is_school .when_created p{
+    font-size: 22px;
+}
+.easy_learning .answer_learn p{
+    margin-bottom: 1.5rem;
+}
+.try_yourself .answer_try p{
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+}
+.school_free .heading_school p{
+    margin: 1rem 0;
+    font-size: 22px;
+}
+.chat_gpt .chat_gpt_content p,.you_help .help_content p{
+    margin-bottom: 1rem;
+    font-size: 22px;
+}
+.demo_content table{
+    width: 100%;
+    border: 1px solid var(--color-grey);
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+}
+
+.demo_content table td,.demo_content table th{
+    
+    text-align: left;
+    padding: 0.5rem 1rem ;
+    border-bottom: 1px solid var(--color-grey);
+}
+.demo_content table tr:nth-child(odd)
+{
+     background-color: var(--color-grey);
+}
+.buttons .login_btn{
+    background-color: transparent;
+    color: black;
+    border: 1px solid var(--color-black);
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+}
+.buttons .login_btn:hover{
+    
+    background-color:#ced9e5;
+}
+
+@media (max-width:768px) {
+    .header-content{
+        padding: 2rem;
+    }
+    .largest_community p{
+        font-size:30px;
+        margin-bottom: 1rem;
+       text-align: left;
+       padding:0 1rem ;
+    }
+}
+@media (max-width:540px) {
+    .header-content p{
+        font-size: 25px;
+    }
+    .header-content h2{
+        font-size: 35px;
+        font-weight: 400;
+        margin-bottom: 1rem;
+   }
+   .buttons .login_btn {
+    display: none;
+   }
+}
