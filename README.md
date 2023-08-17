@@ -1,49 +1,70 @@
-# BulbulWeb
+# Getting Started with Create React App
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/git-bulbulweb/codebase)](https://github.com/git-bulbulweb/codebase/issues)
-[![GitHub stars](https://img.shields.io/github/stars/git-bulbulweb/codebase)](https://github.com/git-bulbulweb/codebase/stargazers)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Description
+## Available Scripts
 
-Welcome to BulbulWeb Codebase! We are an engaging online platform that presents captivating content in simple, understandable language. Our website covers a diverse range of expertise, including Food, Health, Entertainment, Social Media, Guides, Reviews, and much more. Our mission is to make knowledge accessible to everyone, whether you're an enthusiast or a curious learner.
+In the project directory, you can run:
 
-## Table of Contents
+### `npm start`
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Installation
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-No installation is required to enjoy the wealth of information available on BulbulWeb Codebase. Just visit our website at www.bulbulweb.com and start exploring!
+### `npm test`
 
-## Usage
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-BulbulWeb Codebase is designed to be user-friendly. Simply browse our website to access a wide range of articles on various topics. Dive into the world of Food and discover delightful cuisines from different cultures. Learn valuable Health tips and wellness insights to lead a balanced life. Immerse yourself in Entertainment with the latest news and intriguing stories. Stay up-to-date with Social Media trends and connect with the world. Find comprehensive Guides to make informed decisions and rely on honest Reviews.
+### `npm run build`
 
-## Contributing
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-We value contributions from our community! If you wish to contribute to BulbulWeb Codebase, follow these steps:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-1. Fork this repository.
-2. Create a new branch: `git checkout -b feature/your-feature-name`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin feature/your-feature-name`
-5. Create a pull request
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## License
+### `npm run eject`
 
-This project is licensed under GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## Contact
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-For any questions or suggestions, feel free to contact us:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-- Email: contact@bulbulweb.com
-- Twitter: [@BulbulWeb](https://twitter.com/BulbulWeb)
-- GitHub: [git-bulbulweb](https://github.com/git-bulbulweb)
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-- riddhi Agrawal
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
