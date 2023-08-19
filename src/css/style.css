@@ -1,0 +1,457 @@
+/* Hero Section */
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 400px;
+    padding-top: 140px;
+    color: white;
+    background-color: var(--dark-color);
+    text-align: center;
+}
+.hero-section > h2 > a {
+    color: white;
+}
+
+.hero-text > h1 {
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.hero-form {
+    height: 50px;
+    width: 500px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero-form > form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-form > form > input {
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 30px 0 0 30px;
+    padding-left: 20px;
+}
+
+.hero-form > form > div > button {
+    background-color: var(--primary-green-color);
+    border: none;
+    width: 110px;
+    height: 50px;
+    border-radius: 0 30px 30px 0;
+}
+
+/* Tech Hero Sectoion */
+
+.wave {
+    background-color: #D9EEE1;
+    z-index: -1;
+}
+
+.tech-hero {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 60px 0 60px 0;
+}
+
+.tech-hero-left > h1 {
+    text-align: center;
+    font-size: 80px;
+}
+
+.tech-hero-left > p {
+    text-align: center;
+}
+
+.tech-hero-btns {
+    display: flex;
+    justify-content: center;
+}
+
+.tech-hero-btns > ul > li {
+    cursor: pointer;
+    list-style-type: none; text-align: center;
+    width: 180px;
+    border-radius: 20px;
+    padding: 8px 24px 8px 24px;
+    margin: 24px 0 24px 0;
+}
+.tech-hero-btns > ul > li > a { 
+    text-decoration: none;
+    color: white;
+}
+
+.tech-left-links:nth-child(even) { 
+    color: red;
+}
+
+.learn-link{ background-color: var(--primary-green-color); }
+.tutorial-link{ background-color: var(--tutorial-link-); }
+.ref-link{ background-color: black; }
+.cretified-link{ background-color: var(--certified-link); }
+
+
+.code-box {
+    width: 450px;
+    background-color: var(--grey-code-bg);
+    padding: 24px 20px 32px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 16px 2px rgba(0,0,0,0.45);
+}
+
+.code-box > h1 {
+    font-size: 28px;
+    font-weight: 400;
+    padding-bottom: 12px;
+}
+
+.try-link {
+    text-align: center;
+    width: 50%;
+    margin-top: 28px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px;
+    background-color: var(--primary-green-color);
+}
+.code-box > div > a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.code-purple { color: purple; }
+.code-red { color: red; }
+
+.inner-code-box {
+    font-weight: 300;
+    padding: 10px 0 30px 10px;
+    background-color: white;
+    border-left: 4px solid var(--primary-green-color);
+}
+
+/* HTML Section */
+
+.html-section {
+    background-color: #D9EEE1;
+    margin-top: -300px;
+}
+
+/* CSS Section */
+
+.css-section {
+    width: 100%;
+    background-color: #FFF4A3;
+}
+
+/* Javascript Section */
+
+.js-section {
+    background-color: var(--dark-color);
+}
+
+/* Python Section */
+
+.python-section {
+    background-color: #F3ECEA;
+}
+
+/* SQL Section */
+
+.sql-section {
+    background-color: #96D4D4;
+}
+
+/* Subjects */
+
+.subjects {
+    background-color: var(--dark-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subjects-top {
+    width: 90%;
+}
+
+.subjects-top > ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.subjects-top > ul > li > h1 {
+    font-size: 48px;
+}
+
+.subjects-top > ul > li {
+    background-color: #FFC0C7;
+    width: 34%;
+    height: 300px;
+    margin: 50px 0 50px 0;
+    border-radius: 10px;
+    /* padding: 80px 0 80px 0; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.subjects-btn-container > button{
+    border: none;
+    border-radius: 20px;
+    padding: 16px 50px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+    background-color: var(--dark-color);
+}
+
+.subjects-middle {
+    width: 90%;
+}
+
+.subjects-medium {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.subjects-medium > div{
+    width: 34%;
+}
+
+.subjects-medium > div > button {
+    width: 100%;
+    height: 130px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    padding: 16px 50px 16px;
+    font-size: 32px;
+    font-weight: 600;
+    color: black;
+    background-color: #FFC0C7;
+}
+
+/* Subjects Small */
+
+.subjects-small {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.subjects-small-col {
+    width: 35%;
+}
+.subjects-small-col > ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.subjects-small-col > ul > li {
+    text-align: center;
+    cursor: pointer;
+    width: 40%;
+    height: 100px;
+    border-radius: 10px;
+    background-color: pink;
+}
+.subjects-small-col > ul > li > a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    line-height: 100px;
+}
+
+/* Code Editor Section */
+
+.code-editor-section {
+    padding-top: 70px;
+    background-color: var(--dark-color);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+}
+.code-editor-section > div > h1 {
+    font-size: 72px;
+}
+.code-editor-btns {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.code-editor-btns__btn > button{
+    border: none;
+    margin: 5px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+.code-editor-frontend > button {
+    color: white;
+    background-color: var(--primary-green-color);
+
+}
+.code-editor-backend > button {
+    color: black;
+    background-color: #FFF080;
+}
+
+/* My Hero */
+
+.my-hero-section {
+    padding: 90px 0;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.spaces-section {
+    background-color: var(--dark-color);
+    color: white;
+}
+
+.my-hero-section .my-hero-text {
+    text-align: center;
+}
+
+.my-hero-text > h1 {
+    font-size: 72px;
+}
+
+.my-hero-text > div {
+    font-size: 20px;
+}
+
+.spaces-text > div > p > a { color: pink; }
+
+.my-hero-btn > button {
+    border: none;
+    padding: 16px 96px;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: var(--primary-green-color);
+}
+
+.learning { background-color: #DBEEE1; }
+
+.learning-img > img { margin: 50px 0; }
+
+.pro-user { 
+    color: white;
+    background-color: var(--dark-color); 
+}
+.pro-user-text-internal > p {
+    font-size: 30px;
+    color: #FFB3BB;
+}
+.pro-user-text-internal > ul {
+    margin-top: 30px;
+    list-style-type: none;
+    display: inline-block;
+}
+.pro-user-text-internal > ul > li { text-align: left; }
+.pro-user-text-internal > ul > li > i { margin-right: 10px; }
+
+.color-picker {
+    background-color: #F3ECEA;
+}
+
+.code-game { background-color: #96D4D4; }
+.code-game-btn > button {
+    border: none;
+    border-radius: 20px;
+    padding: 12px 40px;
+    font-size: 16px;
+    color: white;
+    background-color: var(--dark-color);
+}
+
+.excercise {
+    color: white;
+    background-color: var(--dark-color);
+}
+.excercise-btns {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.excercise-btns > div > button {
+    padding: 70px 160px;
+    font-size: 35px;
+}
+
+.web-template-img> img {
+    width: 70rem;
+}
+.web-template-btn { width: 65rem; }
+.web-template-btn > button {
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 20px;
+    background-color: var(--dark-color);
+}
+
+/* Kickstart */
+.kickstart {
+    padding-left: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    color: pink;
+    background-color: var(--dark-color);
+}
+.kickstart-text > h1{ 
+    font-size: 60px;
+    font-weight: 600; 
+}
+.kickstart-text > p { 
+    font-size: 40px; 
+}
+.kickstart-btn > button {
+    border: none;
+    padding: 20px 50px;
+    font-size: 16px;
+    border-radius: 32px;
+    font-weight: 600;
+    color: white;
+    background-color: var(--primary-green-color);
+}

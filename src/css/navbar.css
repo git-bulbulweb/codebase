@@ -1,0 +1,135 @@
+.logo > img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.nav-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+    padding: 8px;
+}
+
+.nav-left {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-right {
+    display: flex;
+    gap: 28px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bootcamps, .spaces {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.sign-log p {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav-menus > ul > li {
+    list-style-type: none;
+    height: 100%;
+}
+.nav-menus > ul > li > button {
+    border: none;
+    padding: 20px;
+    background-color: white;
+}
+.nav-menus > ul > li > button:hover {
+    background-color: #059862;
+}
+
+.nav-menus > ul {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Bottom Navbar */
+
+.nav-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    padding: 0 20px;
+    background-color: var(--dark-color);
+    color: white;
+}
+
+.tech-names > ul {
+    display: flex;
+    gap: 16px;
+}
+.tech-names > ul > li {
+    list-style-type: none;
+}
+.tech-names > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.icons {
+    display: flex;
+    gap: 16px;
+}
+
+.sub-menu {
+    background-color: #282A35;
+    color: white;
+}
+
+.sub-menu-top {
+    width: 100%;
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sub-menu-top > button {
+    border: none;
+    background-color: #282A35;
+}
+
+.sub-menu {
+    width: 100vw;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sub-menu-list {
+    margin-bottom: 50px;
+}
+.sub-menu-list > li {
+    list-style-type: none;
+}
+
+.sub-menu-list > li > a {
+    border-radius: 6px;
+    padding: 0 4px;
+    color: yellow;
+    margin: 10px;
+}
+.sub-menu-list > li > a:hover {
+    color: white;
+    background-color: #059862;
+}
+
+.sub-menu-heading {
+    color: pink;
+}

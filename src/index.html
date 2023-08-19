@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="./css/basic.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/navbar.css">
+        <link rel="stylesheet" href="./css/slideshow.css">
+        <link rel="stylesheet" href="./css/footer.css">
+    <title>DS Schools</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+
+    <div class="navbar">
+            <nav>
+                <div class="nav-top">
+                    <div class="nav-left">
+                        <div class="logo"><img src="./assets/logo.png" alt="logo"></div>
+                        <div class="nav-menus">
+                            <ul>
+                                <li><button onclick="showSubMenu()" class="list-button">Tutorials <i class="fas fa-caret-down" style="color: #000000;"></i></button> </li>
+                                <li><button onclick="showSubMenu()" class="list-button">Exercises <i class="fas fa-caret-down" style="color: #000000;"></i></button></li>
+                                <li><button onclick="showSubMenu()" class="list-button">Get Certified <i class="fas fa-caret-down" style="color: #000000;"></i></button></li>
+                                <li><button onclick="showSubMenu()" class="list-button">Services <i class="fas fa-caret-down" style="color: #000000;"></i></button></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-right">
+                        <div class="bootcamps">
+                            <i class="fa-solid fa-wand-magic-sparkles" style="color: #7a40ad;"></i>
+                            <p>Bootcamps</p>
+                        </div>
+                        <div class="spaces">
+                            <i class="fa-solid fa-gift" style="color: #1caa12;"></i>
+                            <p>Spaces</p>
+                        </div>
+                        <div class="sign-log">
+                            <p>Sign Up</p>
+                            <p>Log In</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sub-menu">
+                    <div class="sub-menu-top">
+                        <h1>Tutorials and References</h1>
+                        <button onclick="closeSubMenu()"><i class="fa-solid fa-x" style="color: #ffffff;"></i></button>
+                    </div>
+                    <div class="sub-menu-top">
+                        <div class="sub-menu-left">
+                            <h1 class="sub-menu-heading">HTML and CSS</h1>
+                            <ul class="sub-menu-list">
+                                <li>Learn HTML <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn CSS <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Structure <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Styling <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Forms <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn BoxModel <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Semantics <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Responsive <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn HTML5 <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Flexbox <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Media <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Grid <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                            </ul>
+                            <ul class="sub-menu-list">
+                                <h1>Data Analytics</h1>
+                                <li>Learn HTML <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn CSS <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Structure <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Styling <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Forms <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn BoxModel <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Semantics <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Responsive <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn HTML5 <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Flexbox <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Media <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Structure <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Styling <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Forms <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn BoxModel <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Semantics <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Responsive <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn HTML5 <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Flexbox <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Grid <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                            </ul>
+                        </div>
+                
+                        <div class="sub-menu-middle">
+                            <h1 class="sub-menu-heading">HTML and CSS</h1>
+                            <ul class="sub-menu-list">
+                                <li>Learn HTML <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn CSS <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Structure <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Styling <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Forms <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn BoxModel <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Semantics <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Responsive <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn HTML5 <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Flexbox <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Media <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Grid <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn HTML <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn CSS <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Structure <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Styling <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Forms <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn BoxModel <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Semantics <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Responsive <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn HTML5 <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Flexbox <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Media <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Grid <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                            </ul>
+                
+                        </div>
+                
+                        <div class="sub-menu-right">
+                            <h1 class="sub-menu-heading">HTML and CSS</h1>
+                            <ul class="sub-menu-list">
+                                <li>Learn HTML <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn CSS <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Structure <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Styling <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Forms <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn BoxModel <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Semantics <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Responsive <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn HTML5 <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Flexbox <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Media <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Grid <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Structure <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Styling <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Forms <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn BoxModel <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Semantics <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Responsive <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn HTML5 <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                                <li>Learn Flexbox <a href="#">Tutorial</a> <a href="#">Reference</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nav-bottom">
+                    <div class="tech-names">
+                        <ul>
+                            <li><a href="#">HTML</a></li>
+                            <li><a href="#">CSS</a></li>
+                            <li><a href="#">JS</a></li>
+                            <li><a href="#">React</a></li>
+                            <li><a href="#">Angular</a></li>
+                            <li><a href="#">Vue.js</a></li>
+                            <li><a href="#">Python</a></li>
+                            <li><a href="#">Node.js</a></li>
+                            <li><a href="#">Ruby</a></li>
+                            <li><a href="#">PHP</a></li>
+                            <li><a href="#">Django</a></li>
+                            <li><a href="#">Express.js</a></li>
+                            <li><a href="#">MySQL</a></li>
+                            <li><a href="#">PostgreSQL</a></li>
+                            <li><a href="#">MongoDB</a></li>
+                            <li><a href="#">SQLite</a></li>
+                            <li><a href="#">Apache</a></li>
+                            <li><a href="#">Git</a></li>
+                            <li><a href="#">npm</a></li>
+                            <li><a href="#">APIs</a></li>
+                        </ul>
+                    </div>
+                    <div class="icons">
+                        <div class="dark-mode"><i class="fa-solid fa-circle-half-stroke" style="color: #ffffff;"></i></i></div>
+                        <div class="earth"><i class="fa-solid fa-earth-americas" style="color: #ffffff;"></i></i></div>
+                        <div class="search"><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></div>
+                    </div>
+                </div>
+            </nav>
+    </div>
+
+    <!-- Hero Section -->
+
+    <div class="hero-section">
+        <div class="hero-text">
+            <h1>Learn to Code</h1>
+            <h3 style="color: pink;">Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+        </div>
+        <div class="hero-form">
+            <form action="#">
+                <input type="text" name="search-query" id="search-query" placeholder="Search our tutorials eg. HTML">
+                 <div>
+                    <button><i class="fa-solid fa-magnifying-glass fa-xl" style="color: #ffffff;"></i></button>
+                </div>
+            </form>
+        </div>
+        <h2><a href="#">Not sure where to begin?</a></h2>
+    </div>
+
+    <!-- Wave -->
+
+    <div class="wave">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#282A35" fill-opacity="1"
+                d="M0,64L80,58.7C160,53,320,43,480,48C640,53,800,75,960,80C1120,85,1280,75,1360,69.3L1440,64L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z">
+            </path>
+        </svg>
+    </div>
+
+    <!-- HTML Section -->
+
+    <div class="html-section">
+        <div class="tech-hero">
+            <div class="tech-hero-left">
+                <h1>HTML</h1>
+                <p>Markup language to build structure of web pages</p>
+                <div class="tech-hero-btns">
+                <ul>
+                    <li class="learn-link"><a class="tech-left-links" href="#">Learn HTML</a></li>
+                    <li class="tutorial-link"><a class="tech-left-links" href="#">Video Tutorial</a></li>
+                    <li class="ref-link"><a class="tech-left-links" href="#">HTML Reference</a></li>
+                    <li class="cretified-link"><a class="tech-left-links" href="#">Get Certified</a></li>
+                </ul>
+                </div>
+            </div>
+            <div class="tech-hero-right">
+            <div class="code-box">
+                <h1>HTML Example:</h1>
+                <div class="inner-code-box">
+                    &lt;<span class="code-purple">!DOCTYPE</span><span class="code-red"> html</span>&gt;
+                    <br>
+                    &lt;<span class="code-purple">html</span>&gt;
+                    <br>
+                    &lt;<span class="code-purple">title</span>&gt;HTML Tutorial&lt;<span class="code-purple">/title</span>&gt;
+                    <br>
+                    &lt;<span class="code-purple">body</span>&gt;
+                    <br><br>
+                    &lt;<span class="code-purple">h1</span>&gt;This is a heading&lt;<span class="code-purple">/h1</span>&gt;
+                    <br>
+                    &lt;<span class="code-purple">p</span>&gt;This is a paragraph&lt;<span class="code-purple">/p</span>&gt;
+                    <br><br>
+                    &lt;<span class="code-purple">/body</span>&gt;
+                    <br>
+                    &lt;<span class="code-purple">/html</span>&gt;
+                </div>
+                <div class="try-link">
+                    <a href="#">Try it yourself</a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- CSS Section -->
+
+    <div class="css-section">
+        <div class="tech-hero">
+            <div class="tech-hero-left">
+                <h1>CSS</h1>
+                <p>Language to provide styling to the web pages</p>
+                <div class="tech-hero-btns">
+                    <ul>
+                        <li class="learn-link"><a class="tech-left-links" href="#">Learn CSS</a></li>
+                        <li class="ref-link"><a class="tech-left-links" href="#">HTML Reference</a></li>
+                        <li class="cretified-link"><a class="tech-left-links" href="#">Get Certified</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tech-hero-right">
+                <div class="code-box">
+                    <h1>CSS Example:</h1>
+                    <div class="inner-code-box">
+                        <span style="color: brown;">body</span> <span>&lcub;</span>
+                        <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp; <span style="color: red;">background-color:</span> <span style="color: blue;">lightbule;</span>
+                        <br>
+                        <span>&rcub;</span>
+                        <br><br>
+                        <span style="color: brown;">h1</span> <span>&lcub;</span>
+                        <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp; <span style="color: red;">color:</span> <span style="color: blue;">lightbule;</span>
+                        <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp; <span style="color: red;">text-align:</span> <span style="color: blue;">center;</span>
+                        <br>
+                        <span>&rcub;</span>
+                        <br><br>
+                        <span style="color: brown;">p</span> <span>&lcub;</span>
+                        <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp; <span style="color: red;">font-family:</span> <span style="color: blue;">verdana;</span>
+                        <br>
+                        <span>&rcub;</span>
+                        <br><br>
+                    </div>
+                    <div class="try-link">
+                        <a href="#">Try it yourself</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Section -->
+
+    <div class="js-section">
+        <div class="tech-hero">
+            <div class="tech-hero-left" style="color: white;">
+                <h1>JavaScript</h1>
+                <p>Language provides functionality to the web pages</p>
+                <div class="tech-hero-btns">
+                    <ul>
+                        <li class="learn-link"><a class="tech-left-links" href="#">Learn JS</a></li>
+                        <li class="ref-link"><a class="tech-left-links" href="#">JS Reference</a></li>
+                        <li class="cretified-link"><a class="tech-left-links" href="#">Get Certified</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tech-hero-right">
+                <div class="code-box">
+                    <h1>JavaScript Example:</h1>
+                    <div class="inner-code-box">
+
+                        <span style="color: blue;">&lt;</span><span style="color: brown;">button</span> <span style="color: red;">onclick</span><span style="color: blue;">&equals;"myFunction()"&gt;</span><span>Click Me!</span>
+                        <br>
+                        <span style="color: blue;">&lt;</span><span style="color: brown;">/button</span><span style="color: blue;">&gt;</span>
+                        <br><br>
+                        <span style="color: blue;">&lt;</span><span style="color: brown;">script</span><span style="color: blue;">&gt;</span>
+                        <br>
+                        <span style="color: blue;">function</span><span>myFunction() &lcub;</span>
+                        <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: blue;">let</span><span>x = document.getElementById(<span style="color: brown;">"demo"</span>);</span>
+                        <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span>x.style.fontSize = <span style="color: brown;">"25px"</span>;</span>
+                        <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span>x.style.color = <span style="color: brown;">"red"</span>;</span>
+                        <br>
+                        <span style="color: blue;">&lt;</span><span style="color: brown;">/script</span><span style="color: blue;">&gt;</span>
+
+
+                    </div>
+                    <div class="try-link">
+                        <a href="#">Try it yourself</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Python Section -->
+
+    <div class="python-section">
+        <div class="tech-hero">
+            <div class="tech-hero-left">
+                <h1>Python</h1>
+                <p>Beginner friendly programming language</p>
+                <div class="tech-hero-btns">
+                    <ul>
+                        <li class="learn-link"><a class="tech-left-links" href="#">Learn Python</a></li>
+                        <li class="ref-link"><a class="tech-left-links" href="#">Python Reference</a></li>
+                        <li class="cretified-link"><a class="tech-left-links" href="#">Get Certified</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tech-hero-right">
+                <div class="code-box">
+                    <h1>Python Example:</h1>
+                    <div style="padding-bottom: 110px;" class="inner-code-box">
+                        <span style="color: blue;">if</span> <span style="color: red;">5 <span style="color: black;"> &gt; </span>2</span><span>:</span>
+                        <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span>print&lpar;<span style="color: brown;">"Five is greater than two!"</span>&rpar;</span>
+                    </div>
+                    <div class="try-link">
+                        <a href="#">Try it yourself</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SQL Section -->
+
+    <div class="sql-section">
+        <div class="tech-hero">
+            <div class="tech-hero-left">
+                <h1>SQL</h1>
+                <p>Language to query data from the database</p>
+                <div class="tech-hero-btns">
+                    <ul>
+                        <li class="learn-link"><a class="tech-left-links" href="#">Learn SQL</a></li>
+                        <li class="ref-link"><a class="tech-left-links" href="#">SQL Reference</a></li>
+                        <li class="cretified-link"><a class="tech-left-links" href="#">Get Certified</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tech-hero-right">
+                <div class="code-box">
+                    <h1>SQL Example:</h1>
+                    <div style="padding-bottom: 110px;" class="inner-code-box">
+                        <span style="color: blue;">SELECT <span style="color: black;">*</span>FROM <span style="color: black;">Customers</span></span>
+                        <br>
+                        <span style="color: blue;">WHERE <span style="color: black;">Country= </span>'<span style="color: brown;">India</span>';</span>
+                    </div>
+                    <div class="try-link">
+                        <a href="#">Try it yourself</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Subject -->
+
+    <section class="subjects">
+        <div class="subjects-top">
+            <ul>
+                <li class="random-color">
+                    <h1>Python</h1>
+                    <p>High-level, versatile, scripting and applications.</p>
+                    <div class="subjects-btn-container">
+                        <button>Learn Python</button>
+                    </div>
+                </li>
+                <li class="random-color">
+                    <h1>Java</h1>
+                    <p>Object-oriented, platform-independent, enterprise applications.</p>
+                    <div class="subjects-btn-container">
+                        <button>Learn Java</button>
+                    </div>
+                </li>
+                <li class="random-color">
+                    <h1>JavaScript</h1>
+                    <p>Web scripting, dynamic, front-end interactivity.</p>
+                    <div class="subjects-btn-container">
+                        <button>Learn JavaScript</button>
+                    </div>
+                </li>
+                <li class="random-color">
+                    <h1>C++</h1>
+                    <p>Extensible, efficient, systems, games, performance-critical applications.</p>
+                    <div class="subjects-btn-container">
+                        <button>Learn C++</button>
+                    </div>
+                </li>
+                <li class="random-color">
+                    <h1>Ruby</h1>
+                    <p>Elegant, dynamic, simple, used in web development.</p>
+                    <div class="subjects-btn-container">
+                        <button>Learn Ruby</button>
+                    </div>
+                </li>
+                <li class="random-color">
+                    <h1>Swift</h1>
+                    <p>Apple's, fast, safe, iOS/macOS app development.</p>
+                    <div class="subjects-btn-container">
+                        <button>Learn Swift</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="subjects-middle">
+            <div class="subjects-medium">
+                <div><button>C</button></div>
+                <div><button>C#</button></div>
+            </div>
+            <div class="subjects-small">
+                <div class="subjects-small-col">
+                    <ul>
+                        <li class="subjects-list-items"><a href="#">ML</a></li>
+                        <li class="subjects-list-items"><a href="#">AI</a></li>
+                        <li class="subjects-list-items"><a href="#">VR</a></li>
+                        <li class="subjects-list-items"><a href="#">AR</a></li>
+                        <li class="subjects-list-items"><a href="#">Blockchain</a></li>
+                        <li class="subjects-list-items"><a href="#">IoT</a></li>
+                        <li class="subjects-list-items"><a href="#">5G</a></li>
+                        <li class="subjects-list-items"><a href="#">React</a></li>
+                        <li class="subjects-list-items"><a href="#">AV</a></li>
+                        <li class="subjects-list-items"><a href="#">Express</a></li>
+                        <li class="subjects-list-items"><a href="#">Biotech</a></li>
+                        <li class="subjects-list-items"><a href="#">Nanotech</a></li>
+                        <li class="subjects-list-items"><a href="#">Robotics</a></li>
+                        <li class="subjects-list-items"><a href="#">Drones</a></li>
+                        <li class="subjects-list-items"><a href="#">3D Printing</a></li>
+                        <li class="subjects-list-items"><a href="#">Node.js</a></li>
+                        <li class="subjects-list-items"><a href="#">MongoDB</a></li>
+                        <li class="subjects-list-items"><a href="#">Smart Homes</a></li>
+                    </ul>
+                </div>
+                <div class="subjects-small-col">
+                    <ul>
+                        <li class="subjects-list-items"><a href="#">Angular</a></li>
+                        <li class="subjects-list-items"><a href="#">Wearable Tech</a></li>
+                        <li class="subjects-list-items"><a href="#">Vue.js</a></li>
+                        <li class="subjects-list-items"><a href="#">AMI</a></li>
+                        <li class="subjects-list-items"><a href="#">CRISPR-Cas9</a></li>
+                        <li class="subjects-list-items"><a href="#">PAT</a></li>
+                        <li class="subjects-list-items"><a href="#">Space Tech</a></li>
+                        <li class="subjects-list-items"><a href="#">Cloud Computing</a></li>
+                        <li class="subjects-list-items"><a href="#">Edge Computing</a></li>
+                        <li class="subjects-list-items"><a href="#">MySQL</a></li>
+                        <li class="subjects-list-items"><a href="#">PostgreSQL</a></li>
+                        <li class="subjects-list-items"><a href="#">NLP</a></li>
+                        <li class="subjects-list-items"><a href="#">Netlify</a></li>
+                        <li class="subjects-list-items"><a href="#">Cloud</a></li>
+                        <li class="subjects-list-items"><a href="#">AWS</a></li>
+                        <li class="subjects-list-items"><a href="#">SG Tech</a></li>
+                        <li class="subjects-list-items"><a href="#">Azure</a></li>
+                        <li class="subjects-list-items"><a href="#">Heroku</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="subjects-medium">
+                <div><button>Excel</button></div>
+                <div><button>Postman</button></div>
+            </div><div class="subjects-medium">
+                <div><button>Robo3T</button></div>
+                <div><button>VS Code</button></div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Code Editor -->
+
+    <section class="code-editor-section">
+        <div>
+            <h1>Code Editor</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente odit totam veritatis qui.</p>
+        </div>
+        <div class="code-gif">
+            <img src="./assets/gif/codeeditor.gif" alt="">
+        </div>
+        <div class="code-editor-btns">
+            <div class="code-editor-frontend code-editor-btns__btn">
+                <button>Try Frontend Editor (HTML/CSS/JS)</button>
+            </div>
+            <div class="code-editor-backend code-editor-btns__btn">
+                <button>Try Backend Editor (Python/PHP/Java/C/..)</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Spaces -->
+
+    <section class="spaces-section my-hero-section">
+        <div class="spaces-text my-hero-text">
+            <h1>DS Schools Spaces</h1>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ex amet <a href="#">DSSchools Spaces</a>. </p>
+                <p> Itaque sapiente magni modi nemo, illo maiores.</p>
+            </div>
+        </div>
+        <div class="spaces-gif">
+            <img src="./assets/gif/spaces.gif" alt="spaces gif">
+        </div>
+        <div class="spaces-works-img">
+            <img src="./assets/how-spaces-works.png" alt="how spaces works">
+        </div>
+        <div class="spaces-btn my-hero-btn">
+            <button>Learn More</button>
+        </div>
+    </section>
+
+    <!-- My Learning -->
+
+    <section class="learning my-hero-section">
+        <div class="learning-text my-hero-text">
+            <h1>My Learning</h1>
+            <div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam quos eos in?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="learning-img">
+                <img src="./assets/learning.png" alt="my learning image">
+            </div>
+            <div class="learning-btn my-hero-btn">
+                <button>Sign Up for Free</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pro User -->
+
+    <section class="pro-user my-hero-section">
+        <div class="pro-user-text my-hero-text">
+            <h1>Become a Pro User</h1>
+            <div class="pro-user-text-internal">
+                <p>And unlock powerful features:</p>
+                <ul>
+                    <li><i class="fa-solid fa-circle-check" style="color: #ffffff;"></i>Browse DSSchools without ads</li>
+                    <li><i class="fa-solid fa-circle-check" style="color: #ffffff;"></i>Website hosting (includes PRO features)</li>
+                    <li><i class="fa-solid fa-circle-check" style="color: #ffffff;"></i>Access our <a style="color: white;" href="#">premium content</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="spaces-btn my-hero-btn">
+            <button>Learn More</button>
+        </div>
+    </section>
+
+    <!-- Color Picker -->
+
+    <section class="color-picker my-hero-section">
+        <div class="my-hero-text">
+            <h1>Color Picker</h1>
+            <div>
+                <p>DSSchools' ultra famous color picker:</p>
+            </div>
+        </div>
+        <div class="">
+            <img src="./assets/gif/color-picker.gif" alt="color picker hexagon">
+        </div>
+    </section>
+
+    <!-- Code Game -->
+
+    <section class="code-game my-hero-section">
+        <div class="my-hero-text">
+            <h1>Code Game</h1>
+            <div>
+                <p>Help the character to finish the levels.</p>
+            </div>
+        </div>
+        <div class="">
+            <img src="./assets/code-character.png" alt="code game character">
+        </div>
+        <div class="code-game-btn">
+            <button>Play Game</button>
+        </div>
+    </section>
+
+    <!-- Excercise & Quizzes -->
+
+    <section class="excercise my-hero-section">
+        <div class="my-hero-text">
+            <h1>Excercises and Quizzes</h1>
+            <div>
+                <p>Test your abilities!</p>
+            </div>
+        </div>
+        <div class="excercise-btns">
+            <div><button>Excercises</button></div>
+            <div><button>Quizzes</button></div>
+        </div>
+    </section>
+
+    <!-- Web Templates -->
+
+    <section class="my-hero-section">
+        <div class="my-hero-text">
+            <h1>Web Templates</h1>
+            <div>
+                <p>Browse our <strong>free</strong> best of HTML Templates available on the internet</p>
+            </div>
+        </div>
+        <div class="web-template-img">
+            <img src="./assets/web-templates.jpg" alt="web templates image">
+        </div>
+        <div class="web-template-btn">
+            <button>Browse Templates</button>
+        </div>
+    </section>
+
+    <!-- Kickstart Career -->
+
+    <section class="kickstart">
+        <div class="kickstart-text">
+            <h1>Kickstart your career</h1>
+            <p>Get certified by completing out course</p>
+        </div>
+        <div class="kickstart-btn">
+            <button>Get started</button>
+        </div>
+    </section>
+
+    <!-- How To Section -->
+
+    <section class="how-to my-hero-section">
+        <div class="my-hero-text">
+            <h1>How To Section</h1>
+            <div>
+                <p>Code snippets for HTML, CSS and JavaScript</p>
+                <p>For example, hoe to crate a shildeshow: </p>
+            </div>
+        </div>
+
+        <!-- Image Slider -->
+
+        <!-- Slideshow container -->
+        <div class="slideshow-container">        
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="./assets/slideshow/img_mountains_wide.jpg" style="width:100%">
+                <div class="text">Caption Text</div>
+            </div>
+        
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="./assets/slideshow/img_nature_wide.jpg" style="width:100%">
+                <div class="text">Caption Two</div>
+            </div>
+        
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="./assets/slideshow/img_snow_wide.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+        
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <div class="footer-top">
+            <p>Follow us:</p>
+            <div class="footer-icons">
+                <a href="#">
+                    <i class="fa-brands fa-square-facebook fa-2x" style="color: #000000;"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram fa-2xl" style="color: #000000;"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-linkedin fa-2xl" style="color: #000000;"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-discord fa-2xl" style="color: #000000;"></i>
+                </a>
+            </div>
+        </div>
+        <div class="footer-middle">
+                <button class="footer-middle-btn">Spaces</button>
+                <button class="footer-middle-btn">Upgrade</button>
+                <button class="footer-middle-btn">Newsletter</button>
+                <button class="footer-middle-btn">Get Certified</button>
+                <button class="footer-middle-btn">Report Error</button>
+        </div>
+        <!-- <hr> -->
+        <div class="footer-bottom">
+            <div class="footer-tutorials footer-bottom-list">
+            <h2>Top Tutorial</h2>
+            <ul>
+                <li><a href="#">HTML Tutorial</a></li>
+                <li><a href="#">CSS Tutorial</a></li>
+                <li><a href="#">JavaScript Tutorial</a></li>
+                <li><a href="#">MongoDB Tutorial</a></li>
+                <li><a href="#">Python Tutorial</a></li>
+                <li><a href="#">ExpressJS Tutorial</a></li>
+                <li><a href="#">C# Tutorial</a></li>
+                <li><a href="#">C++ Tutorial</a></li>
+                <li><a href="#">Java Tutorial</a></li>
+                <li><a href="#">Ruby Tutorial</a></li>
+                <li><a href="#">Bootstrap Tutorial</a></li>
+                <li><a href="#">SQL Tutorial</a></li>
+            </ul>
+            </div>
+            <div class="footer-references footer-bottom-list">
+                <h2>Top References</h2>
+                <ul>
+                    <li><a href="#">HTML Reference</a></li>
+                    <li><a href="#">CSS Reference</a></li>
+                    <li><a href="#">JavaScript Reference</a></li>
+                    <li><a href="#">MongoDB Reference</a></li>
+                    <li><a href="#">Python Reference</a></li>
+                    <li><a href="#">ExpressJS Reference</a></li>
+                    <li><a href="#">C# Reference</a></li>
+                    <li><a href="#">C++ Reference</a></li>
+                    <li><a href="#">Java Reference</a></li>
+                    <li><a href="#">Ruby Reference</a></li>
+                    <li><a href="#">Bootstrap Reference</a></li>
+                    <li><a href="#">SQL Reference</a></li>
+                </ul>
+            </div>
+            <div class="footer-examples footer-bottom-list">
+                <h2>Top Examples</h2>
+                <ul>
+                    <li><a href="#">HTML Examples</a></li>
+                    <li><a href="#">CSS Examples</a></li>
+                    <li><a href="#">JavaScript Examples</a></li>
+                    <li><a href="#">MongoDB Examples</a></li>
+                    <li><a href="#">Python Examples</a></li>
+                    <li><a href="#">ExpressJS Examples</a></li>
+                    <li><a href="#">C# Examples</a></li>
+                    <li><a href="#">C++ Examples</a></li>
+                    <li><a href="#">Java Examples</a></li>
+                    <li><a href="#">Ruby Examples</a></li>
+                    <li><a href="#">Bootstrap Examples</a></li>
+                    <li><a href="#">SQL Examples</a></li>
+                </ul>
+            </div>
+            <div class="footer-certified footer-bottom-list">
+                <h2>Get Certified</h2>
+                <ul>
+                    <li><a href="#">HTML Certificate</a></li>
+                    <li><a href="#">CSS Certificate</a></li>
+                    <li><a href="#">JavaScript Certificate</a></li>
+                    <li><a href="#">MongoDB Certificate</a></li>
+                    <li><a href="#">Python Certificate</a></li>
+                    <li><a href="#">ExpressJS Certificate</a></li>
+                    <li><a href="#">C# Certificate</a></li>
+                    <li><a href="#">C++ Certificate</a></li>
+                    <li><a href="#">Java Certificate</a></li>
+                    <li><a href="#">Ruby Certificate</a></li>
+                    <li><a href="#">Bootstrap Certificate</a></li>
+                    <li><a href="#">SQL Certificate</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer-forum-about">
+            <a href="#">FORUM</a> | <a href="./about.html">ABOUT</a>
+        </div>
+        <div class="footer-end">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur vero eligendi a? Laborum soluta sit, dolorum ipsum odit facere? Temporibus distinctio tempora repellendus fugit quasi, praesentium illum harum exercitationem eum, quas cumque asperiores, cum magnam nulla molestiae voluptas aut velit aliquid cupiditate. At odio eius quae animi recusandae, cupiditate error voluptas, cum, ratione alias perspiciatis necessitatibus atque beatae velit iusto.</p>
+            <div class="footer-copywrite">
+                <p>Copywrite 2000-2023 by Devendra Sharma. All rights reserved</p>
+                <p><a href="#">DSSchools is Powered by DS.CSS</a></p>
+            </div>
+        </div>
+        <div class="footer-end-logo logo">
+            <img src="./assets/logo.png" alt="footer end logo">
+        </div>
+    </footer>
+
+    <script src="./js/slideshow.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
