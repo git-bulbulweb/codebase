@@ -1,0 +1,130 @@
+.left {
+    border-right: 1px solid grey;
+}
+.right-right {
+    border-left: 1px solid grey;
+}
+
+p, a, h1 { font-weight: 300; }
+a { color: black; }
+a:hover { color: #059862; }
+.main-container {
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+
+.left {
+    background-color: #E7E9EB;
+}
+.left > h1 {
+    padding-left: 20px;
+}
+.left-links div {
+    width: 100%;
+    padding-left: 20px;
+}
+
+.left-links div > a{
+    text-decoration: none;
+}
+
+.right {
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+.right-center {
+    margin-top: 100px;
+}
+
+.home-next-btns {
+    width: 100%;
+    padding: 0 20px;
+    margin: 20px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+.home-next-btns > button{
+    border: none;
+    padding: 10px 24px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #059862;
+
+}
+.progress-btn > button{
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    background-color: white;
+    border: 1px solid grey;
+    padding: 10px 30px;
+}
+
+.right-hero {
+    text-align: center;
+    padding: 80px 0;
+    background-color: #E7E9EB;
+}
+
+.what { 
+    padding-left: 20px; 
+    margin: 20px 0;
+}
+
+.links { padding: 0 30px; }
+.links > ul > li {
+    list-style-type: none;
+    margin: 8px 0;
+}
+.links > ul > li > a {
+    color: black;
+}
+.links > ul > li > a:hover {
+    color: #059862;
+}
+
+.main-text{ margin-top: 32px; }
+.learning { padding: 0 20px; }
+
+.learning > p { margin: 16px 0; }
+
+.gpt-text p {
+    font-style: italic;
+    margin: 10px 0;
+}
+
+.demo-data {
+    border: 1px solid grey;
+}
+.demo-data-heading, .demo-data-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.demo-data-heading > p {
+    font-weight: 600;
+}
+.demo-data-row:nth-child(odd) {
+    background-color: #E7E9EB;
+}
+
+.rr-middle {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.right-bottom {
+    margin-top: 100px;
+}
+
+.rr-bottom > img {
+    margin-top: 100px;
+    border-radius: 20px;
+}
