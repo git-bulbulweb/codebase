@@ -1,0 +1,407 @@
+body {
+    background-color: #ffffff;
+    /* Light mode background color */
+    color: #000000;
+    /* Light mode text color */
+    font-family: Arial, sans-serif;
+}
+
+.dark-mode {
+    background-color: #9d9999;
+    /* Dark mode background color */
+    color: #202020;
+    /* Dark mode text color */
+}
+
+header {
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav {
+    font-size: 18px;
+    margin: 0px 10px;
+}
+
+.gfg-logo {
+    width: 45px;
+    margin-right: 32rem;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.dark {
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 0px 8px;
+    padding: 4px 4px;
+}
+
+.dark:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.signup {
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    margin: 0px 12px;
+    padding: 10px 10px;
+}
+
+.signup:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.sec {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.sec:hover {
+    cursor: pointer;
+}
+
+.main {
+    text-align: center;
+    background-color: rgba(145, 244, 162, 0.623);
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.heading {
+    margin-top: 10px;
+}
+
+
+.search {
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+
+}
+
+form {
+    background: red;
+    width: 600px;
+    height: 55px;
+    display: flex;
+    border-radius: 20px;
+}
+
+form input {
+    flex: 1;
+    outline: none;
+
+}
+
+form button {
+    background: yellowgreen;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    color: black;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+
+.guide {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.testing {
+    border: 2px solid lightslategray;
+    border-radius: 14px;
+    background-color: gray;
+    padding: 5px;
+    color: white;
+}
+
+.testing:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.lld {
+    border: 2px solid lightslategray;
+    border-radius: 14px;
+    background-color: gray;
+    padding: 5px;
+    color: white;
+}
+
+.lld:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.dsa {
+    border: 2px solid lightslategray;
+    border-radius: 14px;
+    background-color: gray;
+    padding: 5px;
+    color: white;
+}
+
+.dsa:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.aftersearch {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-content: center;
+    padding: 30px 130px;
+    margin: 80px 250px;
+    background-color: lightcyan;
+}
+
+.read {
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid red;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 5px;
+    align-content: center;
+}
+
+.learn {
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid red;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 5px;
+    align-content: center;
+}
+
+.practice {
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid red;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 5px;
+    align-content: center;
+}
+
+.view {
+    float: right;
+    border: 2px solid black;
+    border-radius: 18px;
+    background-color: black;
+    color: white;
+}
+
+.view:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.dsatut {
+    background-image: url("dsabg.png");
+    background-size: 100% 400px;
+    background-repeat: no-repeat;
+    border: 2px solid;
+    border-radius: 15px;
+    height: 200px;
+    padding: 50px;
+    margin: 90px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.dsacourse {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+    margin: 0px 20px;
+
+}
+
+.array {
+    border: solid 2px red;
+    width: 8vw;
+    height: 10vh;
+    border-radius: 10px;
+}
+
+.array:hover {
+    cursor: pointer;
+    background-color: violet;
+}
+
+.algo {
+    border: 2px solid red;
+    width: 10vw;
+    height: 10vh;
+    border-radius: 10px;
+}
+
+.algo:hover {
+    cursor: pointer;
+    background-color: violet;
+}
+
+.linked {
+    border: 2px solid red;
+    width: 10vw;
+    height: 10vh;
+    border-radius: 10px;
+}
+
+.linked:hover {
+    cursor: pointer;
+    background-color: violet;
+}
+
+.webdev {
+    background-image: url(webbg.png);
+    background-size: 100% 320px;
+    background-repeat: no-repeat;
+    border: 2px solid;
+    border-radius: 15px;
+    height: 200px;
+    padding: 50px;
+    margin: 90px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.devcourse {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+    margin: 0px 20px;
+}
+
+.html {
+    border: 2px solid red;
+    width: 10vw;
+    height: 10vh;
+    border-radius: 10px;
+}
+
+.html:hover {
+    cursor: pointer;
+    background-color: violet;
+}
+
+.css {
+    border: 2px solid red;
+    width: 10vw;
+    height: 10vh;
+    border-radius: 10px;
+}
+
+.css:hover {
+    cursor: pointer;
+    background-color: violet;
+}
+
+.java {
+    border: 2px solid red;
+    width: 10vw;
+    height: 10vh;
+    border-radius: 10px;
+}
+
+.java:hover {
+    cursor: pointer;
+    background-color: violet;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.one {
+    display: flex;
+}
+
+.two {
+    display: flex;
+}
+
+.loc {
+    height: 20px;
+    width: 20px;
+}
+
+.three {
+    display: flex;
+}
+
+.mess {
+    height: 20px;
+    width: 20px;
+}
+
+.download {
+    margin-top: 10px;
+}
+
+.play {
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.app {
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.overview {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px 10px;
+    padding: 8px 16px;
+    justify-content: space-evenly;
+
+}
+
+.getstart{
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+  }
+
+.last {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
