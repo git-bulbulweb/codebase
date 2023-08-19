@@ -1,0 +1,146 @@
+.main-nav{
+     width: 100%;   
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 1rem 0.6rem;
+     margin: auto;
+     position: relative;
+     height: 100%;
+}
+.main-nav .nav-links{
+    display: flex;
+    gap: 2rem;
+    height: 100%;
+   
+}
+.main-nav .active{
+    color: white!important;
+    background-color: black;
+}
+.active .rotate{
+   rotate: 180deg;
+}
+.main-nav .nav-links .logo{
+width: 40px;
+}
+.main-nav .nav-links .logo img{
+width: 100%;
+}
+.main-nav .nav-links ul,.search-btn ul{
+    list-style: none;
+}
+.main-nav .nav-links ul li a{
+    margin-left: 1rem;
+    display: flex;
+    padding: 0.6rem 0.4rem;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.black{
+    color: white;
+    background-color: black;
+}
+.main-nav .nav-links ul li a:hover{
+    color: white;
+   background-color: var(--color-green);
+}
+
+
+
+.main-nav .nav-links ul li a span{
+  display: flex;
+  justify-self: flex-end;
+  align-items: flex-end;
+  transition: all .2s linear;
+}
+
+.search-btn ul li a{
+    margin:0 1rem;
+    color: black;
+}
+
+.search-btn .buttons-right button{
+    all: unset;
+     padding: 0.4rem 1.3rem;
+     border-radius: 15px;
+     background-color: var(--color-green);
+     color: white;
+     text-align: center;
+     cursor: pointer;
+}
+
+.search-btn .buttons-right :last-child{
+background-color: #D9EEE1;
+color: black;
+margin-left: -1.2rem;
+
+}
+.search-btn .buttons-right :last-child:hover{
+    background-color: var(--color-green);
+    color: white;
+
+}
+.mobileMenu{
+    display: none;
+    
+}
+.mobileMenu .showonmobile{
+    position: absolute;
+    top: 100%;
+    background-color: white;
+    
+    z-index: 1000;
+    left: -15px;
+    right: -20px;
+}
+.close-btn{
+  
+     right:  10%;
+     top: 2%;
+     position: absolute;
+     cursor: pointer;
+}
+@media (max-width:1024px)
+{
+.main-nav{
+   width: 97%;  
+}
+.main-nav .nav-links{
+gap: 0.5rem;
+}
+.search-btn ul li a{
+  margin: 0 0.2rem;
+}
+.search-btn ul li a{
+    margin: 0 0.7rem;
+
+}
+.main-nav .nav-links ul li a{
+  margin-left: 1rem;
+}
+}
+@media (max-width:992px)
+{
+    .search-btn ul
+    {
+        display: none;
+    }
+}
+@media (max-width:768px)
+{
+    .nav-links .main_desktop{
+        display: none;
+    }
+    .main-nav .nav-links{
+        gap: 1rem;
+        }
+.mobileMenu{
+    display: flex;
+}
+.search-btn .buttons-right :first-child{
+    display: none;
+}
+}

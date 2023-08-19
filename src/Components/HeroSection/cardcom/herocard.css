@@ -1,0 +1,154 @@
+.main_hero_item{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 4rem 0;
+    /* background-color: red; */
+}
+.herocardsitem{
+
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.4rem 0;
+    gap: 3rem;
+
+}
+.herocardsitem .card-content{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+.herocardsitem .card-content h2{
+ font-size: 5rem;
+ font-weight: 700;
+}
+.herocardsitem .card-content p{
+  font-size: 19px;
+  margin-bottom: 1rem;
+}
+.herocardsitem .card-code{
+    width: 60%; 
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    background-color: var(--color-grey);
+    padding: 1rem;
+    gap: 1rem;
+}
+.herocardsitem .card-code h4{
+    font-size: 1.4rem;
+  
+}
+.herocardsitem .card-code pre
+{
+      text-align:left;
+      background-color: var(--color-black);
+      color: white;
+      padding: 2rem 0.4rem;
+      height: 300px;
+      border-left: 6px solid var(--color-green);
+}
+
+.herocardsitem .card-code button{
+    all: unset;
+   width: fit-content;
+   padding: 0.5rem 1.4rem;
+   background-color: var(--color-green);
+   color: white;
+   cursor: pointer;
+   text-align: center;
+   border-radius: 20px;
+}
+
+
+.btn{
+    all: unset;
+    font-size: 18px;
+    padding: 0.6rem 0;
+    width: 200px;
+    border-radius: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+.btn-0{
+    background-color: var(--color-green);
+    color: white;
+}
+.btn-1
+{
+    background-color: var(--color-black);
+    color: white;
+}
+.btn-2{
+    background-color: var(--color-lightpink);
+    color: black;
+}
+
+
+
+
+
+@media (max-width:1100px) {
+    .herocardsitem{
+
+        width: 85%;
+    }
+}
+@media (max-width:992px) {
+    .herocardsitem{
+
+        width: 95%;
+        align-items:center;
+      
+        flex-direction: column;
+    }
+    .herocardsitem .card-content{ 
+      width: 100%;
+    }
+    .herocardsitem .card-code{
+        width: 100%;
+        
+    }
+
+
+}
+@media (max-width:540px) {
+ .herocardsitem .card-content h2{
+    font-size:3.8rem ;
+    text-align: center;
+ }
+ .herocardsitem .card-content p{
+    font-size: 17px;
+    text-align: center;
+  }
+ .herocardsitem .card-content{
+  width: 100%;
+ }
+ .herocardsitem{
+    width: 100%;
+ }
+ .herocardsitem .card-code pre{
+    font-size: .7rem;
+    height: 250px;
+ }
+
+
+}
+@media (max-width:300px) {
+ .herocardsitem .card-content h2{
+    font-size:2.8rem ;
+    text-align: center;
+ }
+ .herocardsitem .card-content p{
+    font-size: 15px;
+ }
+ .herocardsitem .card-code pre{
+    font-size: .5rem;
+ }
+
+}

@@ -1,0 +1,275 @@
+.heroSection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+}
+.heroSection .learn_code{
+    padding: 6rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#282A35;
+    color: white;
+}
+.learn_code h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+.learn_code h4{
+    color: #FFC0C7;
+    font-weight: 700;
+    margin-top: 25px;
+    font-size: 23px;
+}
+.learn_code .searchbutton{
+   background-color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 33%;
+   height: 50px;
+   border-radius: 30px;
+   margin-top:2rem ;
+}
+.learn_code .searchbutton input{
+    all: unset;
+    color: black;
+    width: 80%;
+    height: 100%;
+    padding: 0.5rem 1rem;
+}
+.learn_code .searchicon{
+  background-color: var(--color-green);
+  padding: 0.3rem 0;
+  height: 100%;
+  width: 30%;
+  border-radius:0 30px 30px 0;
+  cursor: pointer;
+}
+.learn_code .notsure{
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+
+}
+.learn_code .notsure:hover{
+    text-decoration: underline;
+    color: var(--color-green);
+}
+.heroSection .wave{
+    background-color: #D9EEE1;
+}
+
+.herocards
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+    /* justify-content: center; */
+}
+.herocards .main_hero_item:first-child{
+    background-color:var(--color-grey);
+}
+.herocards .main_hero_item:nth-child(2)
+{
+     background-color:var(--color-yellow);
+}
+.herocards .main_hero_item:nth-child(3),.herocards .main_hero_item:nth-child(5)
+{
+     background-color: var(--color-black);
+}
+.herocards .main_hero_item:nth-child(3) h2, .herocards .main_hero_item:nth-child(3) p,.herocards .main_hero_item:nth-child(5) h2,.herocards .main_hero_item:nth-child(5) p
+{
+  color: white;
+}
+.herocards .main_hero_item:nth-child(4)
+{
+     background-color: var(--color-whitish);
+}
+/*Hero Language start here     */
+.heroSection .hero_languages{
+    width: 100%;
+    background-color: var(--color-black);
+    padding: 2rem 0;
+}
+.heroSection .hero_languages .hero_language_cards{
+    margin: auto;
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 4rem 3rem;
+    margin-top: 3rem;
+    
+}
+
+.heroSection .hero_languages .language_card h2{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 2rem;
+}
+.heroSection .hero_languages .language_card p{
+    font-size: 18px;
+    font-weight: 500;
+        color: #3a3a3a;
+        text-align: center;
+        margin: 1rem 0 3rem 0
+}
+.heroSection .hero_languages .language_card button{
+    font-size: 18px;
+    margin: auto;
+    display: block;
+    width: 200px;
+    border-radius: 25px;
+    background-color: #282A35;
+    color: white;
+    padding: 0.7rem 0;
+}
+
+.heroSection .hero_languages .language_card{
+      padding: 2rem;
+}
+.heroSection .hero_languages .language_card:nth-child(1){
+     background-color: var(--color-lightpink);
+}
+.heroSection .hero_languages .language_card:nth-child(2){
+    background-color: var(--color-yellow);
+}
+.heroSection .hero_languages .language_card:nth-child(3){
+    background-color: var(--color-whitish);
+}
+.heroSection .hero_languages .language_card:nth-child(6){
+    background-color: var(--color-grey);
+}
+
+.heroSection .hero_languages .language_card:nth-child(5){
+    background-color: var(--color-lightblue);
+}
+.heroSection .hero_languages .language_card:nth-child(4){
+    background-color: var(--color-lightpink);
+}
+
+/* second grid  */
+.heroSection .hero_languages .hero_language_cards:last-child{
+  grid-template-columns: repeat(4,1fr);
+    
+}
+.language_card_item{
+    padding: 2rem 2rem;
+}
+.heroSection .hero_languages .hero_language_cards:last-child .span_hero_card{
+      grid-column: span 2;
+      padding: 3rem 2rem;
+
+}
+.language_card_item h2{
+    background-color: transparent;
+    text-align: center;
+}
+.hero_language_cards:last-child .language_card_item{
+    background-color: var(--color-yellow);
+}
+.heroSection .hero_languages .hero_language_cards:last-child :nth-child(even)
+{
+  background-color: var(--color-lightpink);
+}
+
+@media (max-width:1280px)
+{
+    .heroSection .hero_languages .hero_language_cards{
+        width: 95%;
+    }
+}
+@media (max-width:1024px)
+{
+    .language_card_item{
+        padding: 2rem 1rem;
+    }
+    .heroSection .hero_languages .hero_language_cards:last-child .span_hero_card{
+          
+          padding: 3rem 1rem;
+    
+    }
+}
+@media (max-width:992px) {
+    .learn_code .searchbutton{
+        width: 55%;
+    }
+    .heroSection .hero_languages .hero_language_cards{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .heroSection .hero_languages .hero_language_cards:last-child{
+        grid-template-columns: repeat(2,1fr);
+          
+      }
+
+}
+@media (max-width:768px) {
+    .learn_code .searchbutton{
+        width: 70%;
+    }
+    
+}
+@media (max-width:540px)
+{
+ .heroSection .hero_languages .hero_language_cards{
+        width: 100%;
+    }
+  .learn_code h1{
+    font-size: 50px;
+    text-align: center;
+}
+.learn_code h4{
+    font-size: 23px;
+    text-align: center;
+}
+ .learn_code .searchbutton{
+        width: 90%;
+        
+    }
+ .learn_code .searchbutton input{
+    font-size: .9rem;
+ }
+ .learn_code .notsure{
+    font-size: 1.3rem;
+ }
+ .heroSection .hero_languages .hero_language_cards:last-child{
+    grid-template-columns: repeat(1,1fr);
+    padding: 2rem 0;
+      
+  }
+  .heroSection .hero_languages .hero_language_cards:last-child .span_hero_card{
+    grid-column: span 1;
+    padding: 2rem 0;
+  }
+}
+@media (max-width:300px)
+{
+
+     .learn_code h1{
+    font-size: 40px;
+  
+}
+.learn_code h4{
+    font-size: 18px;
+    text-align: center;
+}
+     .learn_code .searchbutton{
+        width: 95%;
+        
+    }
+ .learn_code .searchbutton input{
+    font-size: .7rem;
+ }
+ .learn_code .notsure{
+    font-size: .9rem;
+ }
+}
